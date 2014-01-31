@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: org.eclipse.scout.shared.scrolling
+Bundle-SymbolicName: org.eclipse.scout.shared.scrolling;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: org.eclipse.scout.shared.scrolling.Activator
+Export-Package: org.eclipse.scout.shared.scrolling,
+ org.eclipse.scout.shared.scrolling.services,
+ org.eclipse.scout.shared.scrolling.services.common.text
+Require-Bundle: org.eclipse.core.runtime,
+ org.eclipse.scout.rt.shared;visibility:=reexport
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-ActivationPolicy: lazy
