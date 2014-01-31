@@ -4,9 +4,9 @@
 <product name="scoutScrolling" id="org.eclipse.scout.ui.swt.scrolling.product" application="org.eclipse.scout.ui.swt.scrolling.application" useFeatures="false" includeLaunchers="true">
 
    <configIni use="default">
-      <linux>/org.eclipse.scout.ui.swt.scrolling/products/development/config.ini</linux>
-      <macosx>/org.eclipse.scout.ui.swt.scrolling/products/development/config.ini</macosx>
-      <win32>/org.eclipse.scout.ui.swt.scrolling/products/development/config.ini</win32>
+      <linux>org.eclipse.scout.ui.swt.scrolling\products\development\config.ini</linux>
+      <macosx>org.eclipse.scout.ui.swt.scrolling\products\development\config.ini</macosx>
+      <win32>org.eclipse.scout.ui.swt.scrolling\products\development\config.ini</win32>
    </configIni>
 
    <launcherArgs>

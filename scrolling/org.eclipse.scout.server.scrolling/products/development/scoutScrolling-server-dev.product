@@ -4,9 +4,9 @@
 <product name="scoutScrolling Server" id="org.eclipse.scout.server.scrolling.product" application="org.eclipse.scout.server.scrolling.app" useFeatures="false" includeLaunchers="true">
 
    <configIni use="default">
-      <linux>/org.eclipse.scout.server.scrolling/products/development/config.ini</linux>
-      <macosx>/org.eclipse.scout.server.scrolling/products/development/config.ini</macosx>
-      <win32>/org.eclipse.scout.server.scrolling/products/development/config.ini</win32>
+      <linux>org.eclipse.scout.server.scrolling\products\development\config.ini</linux>
+      <macosx>org.eclipse.scout.server.scrolling\products\development\config.ini</macosx>
+      <win32>org.eclipse.scout.server.scrolling\products\development\config.ini</win32>
    </configIni>
 
    <launcherArgs>
