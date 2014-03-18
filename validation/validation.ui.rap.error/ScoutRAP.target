@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?pde version="3.6"?>
+<target name="ScoutRAP">
+  <locations>
+<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="slicer" includeSource="true" type="InstallableUnit">
+<unit id="org.eclipse.rap.feature.feature.group" version="2.3.0.20140311-0943"/>
+<repository location="http://download.eclipse.org/releases/luna"/>
+</location>
+<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="slicer" includeSource="true" type="InstallableUnit">
+<unit id="org.eclipse.scout.rt.rap.source.feature.group" version="4.0.0.20140312-1906"/>
+<repository location="http://download.eclipse.org/releases/luna"/>
+</location>
+    <location path="${eclipse_home}\links\bsicrm-14.0.0\eclipse" type="Directory"/>
+    <location path="${eclipse_home}\" type="Directory"/>
+    <location path="${eclipse_home}\links\bsiag\eclipse" type="Directory"/>
+    <location path="${eclipse_home}\links\scout\eclipse" type="Directory"/>
+  </locations>
+  <launcherArgs>
+    <vmArgs>-Xms256m -Xmx512m -XX:MaxPermSize=256m</vmArgs>
+  </launcherArgs>
+</target>

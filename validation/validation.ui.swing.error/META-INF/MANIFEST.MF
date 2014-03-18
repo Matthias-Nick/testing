@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: My Application
+Bundle-SymbolicName: validation.ui.swing.error;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: validation.ui.swing.error.Activator
+Bundle-ActivationPolicy: lazy
+Require-Bundle: org.eclipse.scout.rt.ui.swing,
+ validation.client.error;visibility:=reexport,
+ validation.shared.error,
+ org.eclipse.scout.net
+Export-Package: validation.ui.swing.error;uses:="org.eclipse.scout.rt.ui.swing,org.eclipse.scout.rt.client.session,org.osgi.framework"
+Bundle-ClassPath: .
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7

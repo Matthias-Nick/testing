@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: validation.shared.error
+Bundle-SymbolicName: validation.shared.error;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: validation.shared.error.Activator
+Export-Package: validation.shared.error,
+ validation.shared.error.services,
+ validation.shared.error.services.common.text
+Require-Bundle: org.eclipse.core.runtime,
+ org.eclipse.scout.rt.shared;visibility:=reexport
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-ActivationPolicy: lazy
