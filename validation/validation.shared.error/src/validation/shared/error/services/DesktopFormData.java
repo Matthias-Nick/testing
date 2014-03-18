@@ -3,17 +3,11 @@
  */
 package validation.shared.error.services;
 
-import java.util.Map;
-import java.util.Set;
-
 import javax.annotation.Generated;
 
 import org.eclipse.scout.rt.shared.data.form.AbstractFormData;
-import org.eclipse.scout.rt.shared.data.form.ValidationRule;
-import org.eclipse.scout.rt.shared.data.form.fields.AbstractValueFieldData;
 
 import validation.shared.error.AbstractListBoxGroupBoxData;
-import validation.shared.error.CompanyTypeLookupCall;
 
 /**
  * <b>NOTE:</b><br>
@@ -29,36 +23,15 @@ public class DesktopFormData extends AbstractFormData {
   public DesktopFormData() {
   }
 
-  public ListBox getListBox() {
-    return getFieldByClass(ListBox.class);
+  public MyListBoxTest getMyListBoxTest() {
+    return getFieldByClass(MyListBoxTest.class);
   }
 
-  public ListBoxTest2 getListBoxTest2() {
-    return getFieldByClass(ListBoxTest2.class);
-  }
-
-  public static class ListBox extends AbstractValueFieldData<Set<Long>> {
+  public static class MyListBoxTest extends AbstractListBoxGroupBoxData {
 
     private static final long serialVersionUID = 1L;
 
-    public ListBox() {
-    }
-
-    /**
-     * list of derived validation rules.
-     */
-    @Override
-    protected void initValidationRules(Map<String, Object> ruleMap) {
-      super.initValidationRules(ruleMap);
-      ruleMap.put(ValidationRule.LOOKUP_CALL, CompanyTypeLookupCall.class);
-    }
-  }
-
-  public static class ListBoxTest2 extends AbstractListBoxGroupBoxData {
-
-    private static final long serialVersionUID = 1L;
-
-    public ListBoxTest2() {
+    public MyListBoxTest() {
     }
   }
 }
